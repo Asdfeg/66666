@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.clearfix:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.hao{
+    height: 380px;
+    width: 260px;
+    background: #585858;
+    padding: 10px 20px;
+    h3{
+        color: white;
+        margin: 20px 0;
+    }
+    .jin{
+        color: white;
+        font-size: 12px;
+        margin: 10px 0;
+        span{
+            &:nth-of-type(1){
+                margin-right: 80px;
+            }
+        }
+    }
+    .yuan{
+            width: 260px;
+            position: relative;
+            p{
+                text-align: right;
+                float: left;
+                height: 30px;
+                width: 30px;
+                background: white;
+                line-height: 30px;
+                font-size: 12px;
+                color: #606160;
+            }
+            div{
+                text-align: center;
+                float: left;
+                height: 30px;
+                line-height: 30px;
+                width: 30px;
+                background: white;
+                cursor:pointer;
+            }
+            ul{
+                display: none;
+                color: #606160;
+                position: absolute;
+                top: 30px;
+                width: 220px;
+                background: white;
+                font-size: 14px;
+                padding-left: 10px;
+                line-height: 20px;
+                z-index: 1;
+                i{
+                    font-style: normal;
+                }
+            }
+        }
+    input{
+        border: 0;
+        width: 160px;
+        height: 30px;
+        float: left;
+        padding-left: 10px;
+        color: #606160;
+        }
+}
+
